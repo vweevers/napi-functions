@@ -1,6 +1,6 @@
 {
   "name": "napi-functions",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "List the N-API functions used in c/c++ source code",
   "bin": "cli.js",
   "license": "MIT",
