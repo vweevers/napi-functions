@@ -1,0 +1,35 @@
+{
+  "name": "napi-functions",
+  "version": "0.0.0",
+  "description": "List the N-API functions used in c/c++ source code",
+  "bin": "cli.js",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "deglob": "^4.0.1",
+    "minimist": "^1.2.0",
+    "run-parallel-limit": "^1.0.5",
+    "tree-sitter": "^0.16.0",
+    "tree-sitter-cpp": "^0.16.0",
+    "unist-util-visit": "^2.0.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vweevers/napi-functions.git"
+  },
+  "homepage": "https://github.com/vweevers/napi-functions",
+  "keywords": [
+    "c",
+    "cpp",
+    "napi"
+  ],
+  "engines": {
+    "node": ">=8"
+  }
+}
